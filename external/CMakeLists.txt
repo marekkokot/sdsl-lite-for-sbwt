@@ -7,7 +7,7 @@ if(NOT EXISTS ${divsufsort_cmake_file})
 	    )
 endif(NOT EXISTS ${divsufsort_cmake_file})
 
-set(BUILD_SHARED_LIBS OFF CACHE BOOL "Do not build a shared library for libdivsufsort")
+#set(BUILD_SHARED_LIBS OFF CACHE BOOL "Do not build a shared library for libdivsufsort")
 set(BUILD_EXAMPLES OFF CACHE BOOL "Do not build libdivsufsort example")
 set(BUILD_DIVSUFSORT64 ON CACHE BOOL "Build libdivsufsort in 64-bits mode")
 
